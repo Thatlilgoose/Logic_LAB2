@@ -4,6 +4,7 @@
 #include <locale.h>
 
 void measure_matrix_multiply_fast(int N) {
+<<<<<<< HEAD
    
     int* a = (int*)malloc((size_t)N * N * sizeof(int));
     int* b = (int*)malloc((size_t)N * N * sizeof(int));
@@ -11,13 +12,27 @@ void measure_matrix_multiply_fast(int N) {
 
     if (!a || !b || !c) {
         printf("N = %d!\n", N);
+=======
+    // 1. Выделяем память ОДНИМ непрерывным блоком
+    // Используем size_t, чтобы избежать переполнения при N = 10000 (10000 * 10000 = 100 000 000)
+    int* a = (int*)malloc((size_t)N * N * sizeof(int));
+    int* b = (int*)malloc((size_t)N * N * sizeof(int));
+    int* c = (int*)calloc((size_t)N * N, sizeof(int)); // calloc зануляет матрицу C
+
+    if (!a || !b || !c) {
+        printf("Ошибка выделения памяти для N = %d!\n", N);
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a
         free(a); free(b); free(c);
         return;
     }
 
     srand((unsigned int)time(NULL));
 
+<<<<<<< HEAD
    
+=======
+    // Заполнение случайными числами
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a
     for (size_t i = 0; i < (size_t)N * N; i++) {
         a[i] = rand() % 100 + 1;
         b[i] = rand() % 100 + 1;
@@ -25,7 +40,11 @@ void measure_matrix_multiply_fast(int N) {
 
     clock_t start = clock();
 
+<<<<<<< HEAD
     
+=======
+    // 2. Кэш-эффективный порядок циклов (i-r-j)
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a
     for (int i = 0; i < N; i++) {
         for (int r = 0; r < N; r++) {
             int a_ir = a[i * N + r];
@@ -45,15 +64,22 @@ void measure_matrix_multiply_fast(int N) {
     free(c);
 }
 
-int main2(void) {
+int main(void) {
     setlocale(LC_ALL, "rus");
     setvbuf(stdin, NULL, _IONBF, 0);
     setvbuf(stdout, NULL, _IONBF, 0);
 
+<<<<<<< HEAD
     int sizes[] = {100, 200, 400, 1000, 2000, 4000, 10000};
     int num_sizes = sizeof(sizes) / sizeof(sizes[0]);
 
     
+=======
+    int sizes[] = {100, 200, 400, 1000, 2000, 4000, 10000 };
+    int num_sizes = sizeof(sizes) / sizeof(sizes[0]);
+
+    printf("=== Быстрый замер времени перемножения матриц ===\n");
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a
     for (int i = 0; i < num_sizes; i++) {
         measure_matrix_multiply_fast(sizes[i]);
     }

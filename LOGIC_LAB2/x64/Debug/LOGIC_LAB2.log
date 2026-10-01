@@ -1,4 +1,8 @@
 ﻿  Task1.cpp
   Task2.cpp
   Создание кода...
+<<<<<<< HEAD
   LOGIC_LAB2.vcxproj -> C:\Users\Andrew\Documents\Лабораторные\Логика\LAB2\Logic_LAB2\x64\Debug\LOGIC_LAB2.exe
+=======
+  LOGIC_LAB2.vcxproj -> C:\Users\Andrew\Documents\LABS\LOGIC\LAB2\x64\Debug\LOGIC_LAB2.exe
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a

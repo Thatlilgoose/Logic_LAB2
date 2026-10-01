@@ -121,7 +121,7 @@ void run_test(const char* test_name, void (*gen_func)(int*, int)) {
     free(work);
 }
 
-int main(void) {
+int main2(void) {
     setlocale(LC_ALL, "rus");
     setvbuf(stdin, NULL, _IONBF, 0);
     setvbuf(stdout, NULL, _IONBF, 0);

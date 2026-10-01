@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\Andrew\\Documents\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041B\u043E\u0433\u0438\u043A\u0430\\LAB2\\Logic_LAB2\\",
   "Documents": [
     {
@@ -9,6 +10,17 @@
     {
       "AbsoluteMoniker": "D:0:0:{58DC6416-5C1B-4157-BE37-6A968AC914C1}|LOGIC_LAB2\\LOGIC_LAB2.vcxproj|C:\\Users\\Andrew\\Documents\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041B\u043E\u0433\u0438\u043A\u0430\\LAB2\\Logic_LAB2\\LOGIC_LAB2\\Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{58DC6416-5C1B-4157-BE37-6A968AC914C1}|LOGIC_LAB2\\LOGIC_LAB2.vcxproj|solutionrelative:LOGIC_LAB2\\Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\Andrew\\Documents\\LABS\\LOGIC\\LAB2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58DC6416-5C1B-4157-BE37-6A968AC914C1}|LOGIC_LAB2\\LOGIC_LAB2.vcxproj|C:\\Users\\Andrew\\Documents\\LABS\\LOGIC\\LAB2\\LOGIC_LAB2\\Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DC6416-5C1B-4157-BE37-6A968AC914C1}|LOGIC_LAB2\\LOGIC_LAB2.vcxproj|solutionrelative:LOGIC_LAB2\\Task1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DC6416-5C1B-4157-BE37-6A968AC914C1}|LOGIC_LAB2\\LOGIC_LAB2.vcxproj|C:\\Users\\Andrew\\Documents\\LABS\\LOGIC\\LAB2\\LOGIC_LAB2\\Task2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DC6416-5C1B-4157-BE37-6A968AC914C1}|LOGIC_LAB2\\LOGIC_LAB2.vcxproj|solutionrelative:LOGIC_LAB2\\Task2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a
     }
   ],
   "DocumentGroupContainers": [
@@ -18,6 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -32,10 +45,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-09-23T06:57:55.143Z",
               "EditorCaption": ""
+=======
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< HEAD
               "Title": "Task1.cpp",
               "DocumentMoniker": "C:\\Users\\Andrew\\Documents\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435\\\u041B\u043E\u0433\u0438\u043A\u0430\\LAB2\\Logic_LAB2\\LOGIC_LAB2\\Task1.cpp",
               "RelativeDocumentMoniker": "LOGIC_LAB2\\Task1.cpp",
@@ -44,6 +65,29 @@
               "ViewState": "AgIAACwAAAAAAAAAAADgvzMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-09-23T06:56:07.039Z",
+=======
+              "Title": "Task2.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrew\\Documents\\LABS\\LOGIC\\LAB2\\LOGIC_LAB2\\Task2.cpp",
+              "RelativeDocumentMoniker": "LOGIC_LAB2\\Task2.cpp",
+              "ToolTip": "C:\\Users\\Andrew\\Documents\\LABS\\LOGIC\\LAB2\\LOGIC_LAB2\\Task2.cpp",
+              "RelativeToolTip": "LOGIC_LAB2\\Task2.cpp",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-27T19:23:53.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Task1.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrew\\Documents\\LABS\\LOGIC\\LAB2\\LOGIC_LAB2\\Task1.cpp",
+              "RelativeDocumentMoniker": "LOGIC_LAB2\\Task1.cpp",
+              "ToolTip": "C:\\Users\\Andrew\\Documents\\LABS\\LOGIC\\LAB2\\LOGIC_LAB2\\Task1.cpp*",
+              "RelativeToolTip": "LOGIC_LAB2\\Task1.cpp*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-09-27T19:20:27.34Z",
+>>>>>>> 2aab7a52f1f7e1a476f8c36fef4600c41c9c8e9a
               "EditorCaption": ""
             }
           ]
