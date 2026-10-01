@@ -43,15 +43,14 @@ void qs(int* items, int left, int right) {
             }
         } while (i <= j);
 
-        // –екурсивно сортируем ћ≈Ќ№Ў”ё часть, а большую обрабатываем циклом.
-        // Ёто предотвращает переполнение стека (Stack Overflow).
+        
         if ((j - left) < (right - i)) {
             if (left < j) qs(items, left, j);
-            left = i; // переходим к правой части в цикле
+            left = i; 
         }
         else {
             if (i < right) qs(items, i, right);
-            right = j; // переходим к левой части в цикле
+            right = j;
         }
     }
 }
